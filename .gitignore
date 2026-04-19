@@ -1,0 +1,36 @@
+# ========== Android ==========
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ========== Android Studio ==========
+*.hprof
+**/android/app/build/
+**/android/.gradle/
+
+# ========== Backend (fichiers temporaires) ==========
+backend/api.log
+backend/error.log
+*.log
+
+# ========== XAMPP ==========
+htaccess
+
+# ========== Système ==========
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ========== Fichiers sensibles ==========
+**/local.properties
+**/gradle.properties
+backend/config.php
+
